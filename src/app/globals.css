@@ -9,11 +9,11 @@
   --vibe-primary-rgb: 244, 63, 94;
   --vibe-accent: #fb7185;
   --vibe-secondary: #f59e0b;
-  --vibe-bg-gradient: radial-gradient(circle at 50% -20%, rgba(244, 63, 94, 0.18) 0%, rgba(18, 9, 16, 0.95) 50%, #09090b 100%);
-  --vibe-card-bg: rgba(24, 12, 22, 0.65);
-  --vibe-border: rgba(244, 63, 94, 0.22);
-  --vibe-glow: rgba(244, 63, 94, 0.35);
-  --vibe-badge-bg: rgba(244, 63, 94, 0.12);
+  --vibe-bg-gradient: radial-gradient(circle at 50% -20%, rgba(244, 63, 94, 0.22) 0%, rgba(18, 9, 16, 0.95) 50%, #09090b 100%);
+  --vibe-card-bg: rgba(22, 10, 20, 0.68);
+  --vibe-border: rgba(244, 63, 94, 0.25);
+  --vibe-glow: rgba(244, 63, 94, 0.42);
+  --vibe-badge-bg: rgba(244, 63, 94, 0.14);
   --vibe-name: "Romantic Candlelight";
 }
 
@@ -22,10 +22,10 @@
   --vibe-primary-rgb: 244, 63, 94;
   --vibe-accent: #fb7185;
   --vibe-secondary: #f59e0b;
-  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(244, 63, 94, 0.22) 0%, rgba(24, 10, 20, 0.95) 55%, #080608 100%);
-  --vibe-card-bg: rgba(26, 12, 22, 0.7);
-  --vibe-border: rgba(244, 63, 94, 0.24);
-  --vibe-glow: rgba(244, 63, 94, 0.4);
+  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(244, 63, 94, 0.24) 0%, rgba(24, 10, 20, 0.96) 55%, #080608 100%);
+  --vibe-card-bg: rgba(26, 12, 22, 0.72);
+  --vibe-border: rgba(244, 63, 94, 0.26);
+  --vibe-glow: rgba(244, 63, 94, 0.45);
   --vibe-badge-bg: rgba(244, 63, 94, 0.15);
   --vibe-name: "Romantic Candlelight";
 }
@@ -35,10 +35,10 @@
   --vibe-primary-rgb: 245, 158, 11;
   --vibe-accent: #fbbf24;
   --vibe-secondary: #ea580c;
-  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(245, 158, 11, 0.2) 0%, rgba(26, 18, 9, 0.95) 55%, #0a0805 100%);
-  --vibe-card-bg: rgba(28, 20, 10, 0.7);
-  --vibe-border: rgba(245, 158, 11, 0.24);
-  --vibe-glow: rgba(245, 158, 11, 0.35);
+  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(245, 158, 11, 0.22) 0%, rgba(26, 18, 9, 0.96) 55%, #0a0805 100%);
+  --vibe-card-bg: rgba(28, 20, 10, 0.72);
+  --vibe-border: rgba(245, 158, 11, 0.26);
+  --vibe-glow: rgba(245, 158, 11, 0.4);
   --vibe-badge-bg: rgba(245, 158, 11, 0.15);
   --vibe-name: "Warm Convivial Harvest";
 }
@@ -48,10 +48,10 @@
   --vibe-primary-rgb: 16, 185, 129;
   --vibe-accent: #34d399;
   --vibe-secondary: #06b6d4;
-  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(16, 185, 129, 0.2) 0%, rgba(8, 26, 18, 0.95) 55%, #040d09 100%);
-  --vibe-card-bg: rgba(9, 28, 20, 0.7);
-  --vibe-border: rgba(16, 185, 129, 0.24);
-  --vibe-glow: rgba(16, 185, 129, 0.35);
+  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(16, 185, 129, 0.22) 0%, rgba(8, 26, 18, 0.96) 55%, #040d09 100%);
+  --vibe-card-bg: rgba(9, 28, 20, 0.72);
+  --vibe-border: rgba(16, 185, 129, 0.26);
+  --vibe-glow: rgba(16, 185, 129, 0.4);
   --vibe-badge-bg: rgba(16, 185, 129, 0.15);
   --vibe-name: "Wild Botanical Frontier";
 }
@@ -61,10 +61,10 @@
   --vibe-primary-rgb: 139, 92, 246;
   --vibe-accent: #a78bfa;
   --vibe-secondary: #38bdf8;
-  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(139, 92, 246, 0.2) 0%, rgba(14, 15, 34, 0.95) 55%, #070712 100%);
-  --vibe-card-bg: rgba(18, 18, 38, 0.7);
-  --vibe-border: rgba(139, 92, 246, 0.24);
-  --vibe-glow: rgba(139, 92, 246, 0.35);
+  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(139, 92, 246, 0.22) 0%, rgba(14, 15, 34, 0.96) 55%, #070712 100%);
+  --vibe-card-bg: rgba(18, 18, 38, 0.72);
+  --vibe-border: rgba(139, 92, 246, 0.26);
+  --vibe-glow: rgba(139, 92, 246, 0.4);
   --vibe-badge-bg: rgba(139, 92, 246, 0.15);
   --vibe-name: "Serene Twilight Sanctuary";
 }
@@ -74,36 +74,72 @@
   --vibe-primary-rgb: 236, 72, 153;
   --vibe-accent: #f472b6;
   --vibe-secondary: #eab308;
-  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(236, 72, 153, 0.22) 0%, rgba(30, 10, 26, 0.95) 55%, #0d040c 100%);
-  --vibe-card-bg: rgba(32, 12, 28, 0.7);
-  --vibe-border: rgba(236, 72, 153, 0.26);
-  --vibe-glow: rgba(236, 72, 153, 0.4);
+  --vibe-bg-gradient: radial-gradient(circle at 50% -10%, rgba(236, 72, 153, 0.24) 0%, rgba(30, 10, 26, 0.96) 55%, #0d040c 100%);
+  --vibe-card-bg: rgba(32, 12, 28, 0.72);
+  --vibe-border: rgba(236, 72, 153, 0.28);
+  --vibe-glow: rgba(236, 72, 153, 0.45);
   --vibe-badge-bg: rgba(236, 72, 153, 0.16);
   --vibe-name: "Euphoric Midnight Spark";
 }
 
 body {
-  background-color: #08080a;
+  background-color: #070709;
   color: #fafafa;
   overflow-x: hidden;
   transition: background-color 0.6s ease, color 0.4s ease;
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(7, 7, 9, 0.8), rgba(7, 7, 9, 0.98));
+  background-size: 28px 28px, 100% 100%;
 }
 
-/* Custom Glassmorphism & Glow Utilities */
+/* Bento Grid Card Utilities */
+.bento-card {
+  position: relative;
+  background: var(--vibe-card-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--vibe-border);
+  border-radius: 1.75rem;
+  box-shadow: 0 10px 36px 0 rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, transparent 40%, var(--vibe-border) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.bento-card:hover {
+  border-color: rgba(var(--vibe-primary-rgb), 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 48px -8px var(--vibe-glow), 0 0 24px -4px var(--vibe-border);
+}
+
+/* Glassmorphism & Glow Utilities */
 .glass-panel {
   background: var(--vibe-card-bg);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border: 1px solid var(--vibe-border);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
   transition: all 0.4s ease;
 }
 
 .glass-pill {
   background: var(--vibe-badge-bg);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--vibe-border);
   color: var(--vibe-accent);
 }
@@ -115,12 +151,12 @@ body {
 }
 
 .vibe-glow-button:hover {
-  box-shadow: 0 0 36px var(--vibe-glow);
-  transform: translateY(-1px);
+  box-shadow: 0 0 38px var(--vibe-glow);
+  transform: translateY(-1.5px) scale(1.01);
 }
 
 .vibe-text-gradient {
-  background: linear-gradient(135deg, #ffffff 30%, var(--vibe-accent) 100%);
+  background: linear-gradient(135deg, #ffffff 25%, var(--vibe-accent) 70%, var(--vibe-primary) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -129,6 +165,17 @@ body {
   border-color: var(--vibe-border);
   box-shadow: 0 0 20px -5px var(--vibe-glow);
 }
+
+/* Atmospheric Equalizer Bars */
+@keyframes equalizer {
+  0%, 100% { height: 4px; }
+  50% { height: 18px; }
+}
+
+.eq-bar-1 { animation: equalizer 1.1s ease-in-out infinite; }
+.eq-bar-2 { animation: equalizer 0.8s ease-in-out infinite 0.2s; }
+.eq-bar-3 { animation: equalizer 1.4s ease-in-out infinite 0.4s; }
+.eq-bar-4 { animation: equalizer 0.9s ease-in-out infinite 0.1s; }
 
 /* Smooth custom scrollbars */
 ::-webkit-scrollbar {

@@ -4,8 +4,7 @@ import React from 'react';
 import { useAppStore } from '@/store/useAppStore';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
-import { LandingHero } from '@/components/landing/LandingHero';
-import { LocationSelector } from '@/components/landing/LocationSelector';
+import { BentoDashboard } from '@/components/bento/BentoDashboard';
 import { DishCarousel } from '@/components/solo/DishCarousel';
 import { GroupRoomView } from '@/components/group/GroupRoomView';
 import { CheckoutModal } from '@/components/checkout/CheckoutModal';
@@ -23,12 +22,7 @@ export default function Home() {
 
       {/* Main Flow Stage */}
       <div className="flex-1 w-full">
-        {flowMode === 'landing' && (
-          <>
-            <LandingHero />
-            <LocationSelector />
-          </>
-        )}
+        {flowMode === 'landing' && <BentoDashboard />}
 
         {flowMode === 'solo' && <DishCarousel />}
 
