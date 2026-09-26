@@ -67,10 +67,10 @@ export function LandingHero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.1 }}
-        className="relative z-10 text-4xl sm:text-6xl md:text-7xl font-extrabold text-white tracking-tight max-w-4xl leading-[1.1]"
+        className="relative z-10 editorial-headline text-5xl sm:text-7xl md:text-8xl text-white max-w-4xl"
       >
-        Speak Your Mood. <br />
-        <span className="vibe-text-gradient">Taste the Atmosphere.</span>
+        Enjoy healthy and <br />
+        delicious food.
       </motion.h1>
 
       {/* Subtitle */}

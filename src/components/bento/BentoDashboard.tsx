@@ -143,17 +143,17 @@ export function BentoDashboard() {
           </div>
 
           {/* Main Hero Narrative */}
-          <div className="relative z-10 my-6 space-y-2.5">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-pill text-[11px] font-bold tracking-wider uppercase">
+          <div className="relative z-10 my-6 space-y-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-pill text-[11px] font-bold tracking-wider uppercase font-mono">
               <Sparkles className="w-3 h-3 text-[var(--vibe-accent)] animate-pulse" />
               <span>TableTales Sensory Platform</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-[1.15]">
-              Speak Your Mood. <br />
-              <span className="vibe-text-gradient">Taste the Atmosphere.</span>
+            <h1 className="editorial-headline text-4xl sm:text-5xl lg:text-6xl text-white">
+              Enjoy healthy and <br />
+              delicious food.
             </h1>
-            <p className="text-sm text-zinc-300 max-w-xl leading-relaxed">
-              Welcome to <strong>{selectedLocation.name}</strong> ({selectedLocation.city}). Our AI concierge shapes ambient room lighting, uncovers culinary heritage, and orchestrates synced group dining.
+            <p className="text-sm text-zinc-300 max-w-xl leading-relaxed font-light">
+              Welcome to <strong className="text-white font-semibold">{selectedLocation.name}</strong> ({selectedLocation.city}). Our AI concierge shapes ambient room lighting, uncovers culinary heritage, and orchestrates synced group dining.
             </p>
           </div>
 
